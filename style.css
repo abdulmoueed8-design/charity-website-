@@ -1,0 +1,200 @@
+*{
+    margin: 0 ;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    scroll-behavior: smooth;
+
+}
+#main{
+    background-image: url(Assets/h1_hero1.jpg);
+    height: 100vh;
+    
+   background-position: top;
+    
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px;
+    margin-left: 5px;
+
+}
+nav img{
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+ul li a{
+    margin-right: 50px;
+    font-weight: 900;
+    transition: .5s;
+    
+}
+ul li a:hover
+{
+    color: #65C9BB;
+
+}
+button{
+    padding: 20px 40px;
+    background-color    : #F15B43;
+    border: 1px solid #F15B43;
+    font-size: 16px;
+    transition: .5s;
+    cursor: pointer;
+    
+}
+button:hover{
+    border: 1px solid white;
+    background: transparent;
+}
+.CHILD{
+    
+    margin: 5rem ;
+    
+    
+}
+h1{
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1;
+}
+p{
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.btn{
+    background-color: #65C9BB;
+    border: 1px solid #65C9BB ;
+   
+}
+.btn:hover{
+    background-color:transparent;
+}
+
+/* section 2 */
+
+ #main2{
+    
+    background-color: #FCF2EB;
+    padding: 4rem;
+}
+#parent{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+.child img{
+    width: 400px ;
+}
+.child h4{
+    color: #65C9BB;
+}
+.child h1{
+    color: black;
+}
+.sm-btn:hover{
+    background-color:#FCF2EB;
+    color: #F15B43;
+    border: 1px solid #F15B43 ;
+}
+.SM_BTN{
+    background-color: #FCF2EB;
+    color:#F15B43;
+    border: 1px solid #F15B43 ;
+
+}
+.SM_BTN:hover{
+    background-color:#F15B43 ;
+    color:#FCF2EB;
+   
+
+} 
+
+.Par{
+    gap: 20px;
+}
+.Chi{
+    background-color: #F4F2F1;
+    
+}
+.Chi img 
+{
+    width: 100%;
+    gap: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+
+}
+.Chi h1{
+    color: #263B5C ;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 25px;
+}
+.Chi h1:hover{
+    color: #F15B43;
+}
+.Chi p{
+    font-size: 18px;
+    color: gray;
+}
+.Chi h1,p,button{
+    margin: 20px;
+
+
+}
+.ustad{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.bachy p{
+    font-size: 19px;
+    line-height: 1.5;
+
+
+}
+.bachy h2{
+    font-size: 30px;
+   
+
+
+}
+.bachy img{
+    margin-bottom: 50px ;
+}
+.para{
+    margin-bottom: 50px;
+
+
+}
+.Foot{
+    padding: 6rem;
+}
+.Foot p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.ft-child h2{
+    margin-bottom: 2rem;
+}
+.ft-child ul li a{
+    line-height: 2;
+}
